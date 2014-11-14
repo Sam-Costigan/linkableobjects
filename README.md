@@ -13,8 +13,8 @@ Add your custom Data Objects to the HTML Editor Field link functionality, with a
 ## Setup
 
 To set up a DataObject to be linkable, first it needs to implement the Linkable interface. There are two requirements for a Linkable DataObject:
-* a Link() function which will return a relevant URL to display the Data Object.
-* a LinkTitle() function which will return a title string to display when searching for Data Objects.
+ * a Link() function which will return a relevant URL to display the Data Object.
+ * a LinkTitle() function which will return a title string to display when searching for Data Objects.
 
 The Link() function will need to return a relevant URL so that the Data Object will be displayed. For more information on how to do this, see http://www.ssbits.com/tutorials/2010/dataobjects-as-pages-part-1-keeping-it-simple/
 
