@@ -22,6 +22,7 @@ When searching for DataObjects, the $searchable_fields array will be used to dec
 
 ### Example setup
 
+```
 class Test extends DataObject implements Linkable {
 	
 	private static $db = array(
@@ -42,6 +43,7 @@ class Test extends DataObject implements Linkable {
 		return $this->Name . ' - ' . $this->Author;
 	}
 }
+```
 
 Once the DataObject has been set up to properly implement the Linkable interface, you need to the following line to your mysite/_config.php file:
 
