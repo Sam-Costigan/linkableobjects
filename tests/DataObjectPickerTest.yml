@@ -1,0 +1,15 @@
+DogOwner:
+    Wolfgang:
+        Name: Wolfgang
+    Mateusz:
+        Name: Mateusz
+    Martin:
+        Name: Martin
+
+Dog:
+    Bello:
+        Name: Bello
+        Owner: =>DogOwner.Wolfgang
+    Pluto:
+        Name: Pluto
+        Owner: =>DogOwner.Mateusz

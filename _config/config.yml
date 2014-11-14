@@ -1,0 +1,6 @@
+---
+Name: linkableobjects
+---
+HtmlEditorField_Toolbar:
+  extensions:
+    - 'HtmlToolbar_Extension'
