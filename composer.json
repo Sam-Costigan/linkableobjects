@@ -1,5 +1,5 @@
 {
-	"name": "Sam-Costigan/linkableobjects",
+	"name": "sam-costigan/linkableobjects",
 	"description": "Module for SilverStripe allowing Data Objects to be hooked into WYSIWYG link editor.",
 	"type": "silverstripe-module",
 	"homepage": "https://github.com/Sam-Costigan/linkableobjects",
