@@ -45,7 +45,7 @@ class Test extends DataObject implements Linkable {
 }
 ```
 
-Once the DataObject has been set up to properly implement the Linkable interface, you need to the following line to your mysite/_config.php file:
+Once the DataObject has been set up to properly implement the Linkable interface, you need to add the following line to your mysite/_config.php file:
 
 HtmlEditorField_LinkObjects::addLinkableObject('Test');
 
